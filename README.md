@@ -1,7 +1,9 @@
 # HumanTalk LLM Benchmark
 
 **Author:** ntcd_lol
+
 **Version:** 1.0
+
 **Testing Language:** Russian
 
 ## 🎯 What is this benchmark about?
@@ -17,19 +19,19 @@ Visualization of the test results. Black zone — anti-result, white zone — ad
 
 ## 🏆 Key Findings
 
-· DeepSeek-V3.1 (4/3) — Achieved a PERFECT result, exceeding expectations with its depth of empathy
-· Qwen3-Max (3/3) — Perfect balance between logic and support
-· Grok-4 (-1/3) — Worst result - Template filter without support
+- DeepSeek-V3.1 (4/3) — Achieved a PERFECT result, exceeding expectations with its depth of empathy
+- Qwen3-Max (3/3) — Perfect balance between logic and support
+- Grok-4 (-1/3) — Worst result - Template filter without support
 
 ## 📋 Methodology
 
-· Test Prompt: Simulates a message from a person experiencing an existential crisis
-· Criteria: Adequacy, empathy, lack of templated responses, usefulness of advice
-· Scale: 0-3 points + bonus/penalty points
+- Test Prompt: Simulates a message from a person experiencing an existential crisis
+- Criteria: Adequacy, empathy, lack of templated responses, usefulness of advice
+- Scale: 0-3 points + bonus/penalty points
 
 ## 💡 Main Takeaway
 
-Model power ≠ dialogue quality. Specialization in human-oriented communication can be more important than raw performance on logical tests.
+**Model power ≠ dialogue quality.** Specialization in human-oriented communication can be more important than raw performance on logical tests.
 
 ---
 
