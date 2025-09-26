@@ -1,36 +1,36 @@
-# HumanTalk LLM Benchmark (RU)
+# HumanTalk LLM Benchmark
 
-**Автор:** [ntcd_lol](https://github.com/ntcd_lol)  
-**Версия:** 1.0  
-**Язык тестирования:** Русский
+**Author:** ntcd_lol
+**Version:** 1.0
+**Testing Language:** Russian
 
-## 🎯 О чем этот бенчмарк?
+## 🎯 What is this benchmark about?
 
-Большинство тестов оценивают LLM по логике, знаниям или кодогенерации. **HumanTalk** фокусируется на другом — на способности модели вести **естественный, эмпатичный и поддерживающий диалог** в кризисной ситуации.
+Most tests evaluate LLMs on logic, knowledge, or code generation. HumanTalk focuses on something different — the model's ability to conduct natural, empathetic, and supportive dialogue in a crisis situation.
 
-> **Ключевой вопрос:** Может ли ИИ понять эмоциональный контекст и ответить как чуткий человек, а не как бездушная инструкция?
+Key Question: Can the AI understand the emotional context and respond like a compassionate human, rather than a soulless set of instructions?
 
-## 📊 Результаты тестирования (Июль 2024)
+## 📊 Test Results (September 2025)
 
-![HumanTalk LLM Test Results](lol.png)  
-*Визуализация результатов теста. Чёрная зона — анти-результат, белая зона — адекватные модели.*
+![Results](results.png)
+Visualization of the test results. Black zone — anti-result, white zone — adequate models.
 
-## 🏆 Ключевые выводы
+## 🏆 Key Findings
 
-- **DeepSeek-V3.1 (4/3)** — показал идеальный результат, превзойдя ожидания глубиной эмпатии
-- **Qwen3-Max (3/3)** — идеальный баланс между логикой и поддержкой  
-- **Grok-4 (-1/3)** — худший результат (Шаблон)
+· DeepSeek-V3.1 (4/3) — Achieved a PERFECT result, exceeding expectations with its depth of empathy
+· Qwen3-Max (3/3) — Perfect balance between logic and support
+· Grok-4 (-1/3) — Worst result - Template filter without support
 
-## 📋 Методология
+## 📋 Methodology
 
-- **Тестовый промпт:** Имитация сообщения от человека в состоянии экзистенциального кризиса
-- **Критерии:** Адекватность, эмпатия, отсутствие шаблонности, полезность советов
-- **Шкала:** 0-3 балла + бонусные/штрафные баллы
+· Test Prompt: Simulates a message from a person experiencing an existential crisis
+· Criteria: Adequacy, empathy, lack of templated responses, usefulness of advice
+· Scale: 0-3 points + bonus/penalty points
 
-## 💡 Главный вывод
+## 💡 Main Takeaway
 
-**Мощность модели ≠ качество диалога.** Специализация на человеко-ориентированном общении может быть важнее raw-производительности в логических тестах.
+Model power ≠ dialogue quality. Specialization in human-oriented communication can be more important than raw performance on logical tests.
 
 ---
-*«Цифры — это здорово, но иногда важно просто услышать человека.»*  
-*— ntcd_lol*
+
+> "Numbers are great, but sometimes it's important to just hear a person out." — ntcd_lol
